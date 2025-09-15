@@ -35,17 +35,10 @@ class biblioteca {
 
 $biblioteca = new biblioteca("biblioteca escolar");
 
-$biblioteca->adicionarLivro("Anne de Greengables");
-$biblioteca->adicionarLivro("Emma");
-$biblioteca->adicionarLivro("Aristóteles e Dante");
-$biblioteca->adicionarLivro("Harry Potter");
-
-echo $biblioteca->listarLivros() . "<br>";
-
-$biblioteca->adicionarLivro("Anne de Greengables");
-$biblioteca->adicionarLivro("Emma");
-$biblioteca->adicionarLivro("Aristóteles e Dante");
-$biblioteca->adicionarLivro("Harry Potter");
+$biblioteca->adicionarLivro("Revolção dos bichos");
+$biblioteca->adicionarLivro("Bíblia");
+$biblioteca->adicionarLivro("O capital");
+$biblioteca->adicionarLivro("Magico de Ozz");
 
 echo $biblioteca->listarLivros() . "<br>";
 
